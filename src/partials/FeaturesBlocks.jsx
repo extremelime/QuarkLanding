@@ -1,7 +1,6 @@
 import React from 'react';
 import jwHeadshot from "../images/jw-headshot.jpg"
 import kyHeadshot from "../images/ky-headshot.jpg"
-import myHeadshot from "../images/my-headshot.jpg"
 
 function FeaturesBlocks() {
   return (
