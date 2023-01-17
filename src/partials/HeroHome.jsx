@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import Modal from '../utils/Modal';
+import { Link } from "react-router-dom";
 
 import HeroImage from '../images/hero-image.png';
 
 function HeroHome() {
-
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
     <section className="relative">
@@ -34,12 +32,13 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Generative Testing for <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-indigo-600">Computer Vision APIs</span></h1>
+            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-4" data-aos="zoom-y-out">Generative Testing for<div className=" bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-indigo-600">Computer Vision APIs</div></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Generate custom images and create requests to test your APIs in only a few clicks.</p>
+              <p className="tracking-normal text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Create custom images and requests in only a few clicks.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-indigo-600 hover:bg-indigo-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Launch App</a>
+                <Link to={ {pathname: "/"}} className="block" aria-label="Quark">
+                  <span className="btn text-white rounded-lg bg-indigo-600 hover:scale-110 nm-shadow hover:nm-shadow-lg-hover w-full mb-4 sm:w-auto sm:mb-0" href="/">Launch App</span></Link>
                 </div>
               </div>
             </div>
@@ -79,21 +78,8 @@ function HeroHome() {
                   </g>
                 </svg>
               </div>
-              <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
-                <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-indigo-600 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
-                  <path d="M10 17l6-5-6-5z" />
-                </svg>
-                <span className="ml-3">Watch the full video (2 min)</span>
-              </button>
             </div>
 
-            {/* Modal */}
-            <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
-              <div className="relative pb-9/16">
-                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/174002812" title="Video" allowFullScreen></iframe>
-              </div>
-            </Modal>
 
           </div>
 
