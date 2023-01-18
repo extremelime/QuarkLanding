@@ -15,8 +15,10 @@ function GetStarted() {
               <stop stopColor="#DFDFDF" offset="100%" />
             </linearGradient>
           </defs>
-          <g transform="translate(0 -3)" fill="url(#illustration-02)" fillRule="evenodd">
+          <g transform="translate(0)" fill="url(#illustration-02)" fillRule="evenodd">
             <circle cx="1630" cy="128" r="128" />
+          </g>
+          <g transform="translate(0 -3)" fill="url(#illustration-02)" fillRule="evenodd">  
             <circle cx="178" cy="481" r="40" />
           </g>
         </svg>
@@ -31,7 +33,7 @@ function GetStarted() {
             <p className="tracking-normal text-xl text-gray-600" data-aos="zoom-y-out">Sign up today and get access to Quark's image API testing workflow.</p>
           </div>
                       <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center "  data-aos-delay="300">
-                  <a className="rounded-lg btn text-white bg-black hover:bg-gray-800 w-full sm:w-auto " href="/signup">Sign Up</a>
+                  <a className="rounded-lg btn text-white bg-black hover:bg-gray-800 w-full sm:w-auto select-none" href="/signup">Sign Up</a>
                 </div>
         </div>
       </div>

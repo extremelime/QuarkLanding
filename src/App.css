@@ -12,6 +12,17 @@ body {
   color: rgb(31 41 55);
 }
 
+
+footer {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin:auto;
+
+}
+
+
 .bg-indigo-600{
  background-color:  #4d46dd !important;
 }
@@ -90,13 +101,6 @@ box-shadow: inset 0.2em 0.2em calc(0.2em * 2) #BFBFBF, inset calc(0.2em * -1) ca
   }
 
 
-
-footer {
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-}
 
 
 
