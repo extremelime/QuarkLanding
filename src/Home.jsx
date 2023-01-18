@@ -3,11 +3,10 @@ import React, {useEffect, useState} from 'react';
 import Header from './partials/Header';
 import HeroHome from './partials/HeroHome';
 import FeaturesHome from './partials/Features';
-import FeaturesBlocks from './partials/FeaturesBlocks';
-import Testimonials from './partials/Testimonials';
+import OurTeam from './partials/OurTeam';
+import GetStarted from './partials/GetStarted';
 import Newsletter from './partials/Newsletter';
 import Footer from './partials/Footer';
-import Banner from './partials/Banner';
 
 import 'aos/dist/aos.css';
 import './App.css';
@@ -49,8 +48,8 @@ function Home() {
         {/*  Page sections */}
         <HeroHome signedIn={signedIn} />
         <FeaturesHome />
-       {<FeaturesBlocks />}
-        <Testimonials />
+       {<OurTeam />}
+        <GetStarted />
        {/*<Newsletter />*/}
 
       </main>

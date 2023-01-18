@@ -4,7 +4,6 @@ import Transition from '../utils/Transition';
 import FeaturesBg from '../images/features-bg.png';
 import FeaturesBg2 from '../images/features-bg-2.png';
 import FeaturesBg3 from '../images/features-bg-3.png';
-import FeaturesElement from '../images/features-element.png';
 
 function Features() {
 
@@ -43,7 +42,7 @@ function Features() {
           <div className="md:grid md:grid-cols-12 md:gap-6">
 
             {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-h-7 lg:col-span-h-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Features</h3>
                 <p className="text-xl text-gray-600"></p>
@@ -93,7 +92,7 @@ function Features() {
             </div>
 
             {/* Tabs items */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-h-5 lg:col-span-h-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
               <div className="relative flex flex-col text-center lg:text-right">
                 {/* Item 1 */}
                 <Transition
@@ -109,7 +108,6 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    {/*<img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />*/}
                   </div>
                 </Transition>
                 {/* Item 2 */}

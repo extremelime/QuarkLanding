@@ -2,7 +2,7 @@ import React from 'react';
 import jwHeadshot from "../images/jw-headshot.jpg"
 import kyHeadshot from "../images/ky-headshot.jpg"
 
-function FeaturesBlocks() {
+function OurTeam() {
   return (
     <section className="relative">
 
@@ -15,7 +15,7 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Our Team</h2>
+            <h2 className="h2 mb-4">Our Team.</h2>
             <p className="text-xl tracking-normal text-gray-600">The people behind Quark Image Query Lab.</p>
           </div>
 
@@ -100,4 +100,4 @@ function FeaturesBlocks() {
   );
 }
 
-export default FeaturesBlocks;
+export default OurTeam;
