@@ -5,7 +5,7 @@ import HeroHome from './partials/HeroHome';
 import FeaturesHome from './partials/Features';
 import OurTeam from './partials/OurTeam';
 import GetStarted from './partials/GetStarted';
-import Newsletter from './partials/Newsletter';
+import Tutorial from './partials/Tutorial';
 import Footer from './partials/Footer';
 
 import 'aos/dist/aos.css';
@@ -48,9 +48,9 @@ function Home() {
         {/*  Page sections */}
         <HeroHome signedIn={signedIn} />
         <FeaturesHome />
-       {<OurTeam />}
+        <OurTeam />
         <GetStarted />
-       {/*<Newsletter />*/}
+        <Tutorial />
 
       </main>
 
