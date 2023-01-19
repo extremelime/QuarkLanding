@@ -24,17 +24,18 @@ function OurTeam() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+              <img className= "rounded-full w-28" src={jwHeadshot}/>
+              <h4 className="tracking-normal pt-4 text-xl font-bold leading-snug tracking-tight mb-1">Jake Wigal</h4>
+              <p className="tracking-normal text-gray-600 text-center">Founding Engineer<br/>M.S. Operations Research,<br/>Naval Postgraduate School</p>
+            </div>
+
+            {/* 2nd item */}
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <img className= "rounded-full w-28" src={kyHeadshot}/>
               <h4 className="tracking-normal pt-4 text-xl font-bold leading-snug tracking-tight mb-1">Kevin Yu</h4>
               <p className="tracking-normal text-gray-600 text-center">Software Engineer<br/>B.S. Mechanical Engineering,<br/>University of Texas at Austin</p>
             </div>
 
-            {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <img className= "rounded-full w-28" src={jwHeadshot}/>
-              <h4 className="tracking-normal pt-4 text-xl font-bold leading-snug tracking-tight mb-1">Jake Wigal</h4>
-              <p className="tracking-normal text-gray-600 text-center">Software Engineer<br/>M.S. Operations Research,<br/>Naval Postgraduate School</p>
-            </div>
 
             {/* 3rd item */}
             {/* <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">

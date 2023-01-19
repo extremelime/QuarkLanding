@@ -51,7 +51,7 @@ function Tutorial() {
                 <p className="text-lg mb-6">
                   Modify the body, headers, and query params as needed.
                   Your new test image is stored as the variable&nbsp;
-                  <span style={{color: 'rgb(99 102 241)', display: 'inline-block', }}>
+                  <span style={{color: 'rgb(99 102 241)', fontFamily: 'monospace', display: 'inline-block', }}>
                   "&#123;diffusionURL&#125;"
                   </span> 
                   &nbsp;in the request body.
