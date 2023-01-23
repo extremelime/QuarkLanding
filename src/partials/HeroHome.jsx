@@ -38,7 +38,7 @@ function HeroHome() {
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                 <Link to={ {pathname: "/"}} className="block" aria-label="Quark">
-                  <span className="btn text-white rounded-lg bg-indigo-600 hover:scale-110 nm-shadow hover:nm-shadow-lg-hover w-full mb-4 sm:w-auto sm:mb-0 select-none" href="/">Launch App</span></Link>
+                  <span className="btn text-white rounded-lg bg-indigo-600 hover:scale-110 nm-shadow hover:nm-shadow-lg-hover w-full mb-4 sm:w-auto sm:mb-0 select-none" href="https://app.quarkiql.com">Launch App</span></Link>
                 </div>
               </div>
             </div>

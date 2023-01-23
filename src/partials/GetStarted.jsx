@@ -33,7 +33,7 @@ function GetStarted() {
             <p className="tracking-normal text-xl text-gray-600" data-aos="zoom-y-out">Sign up today and get access to Quark's image API testing workflow.</p>
           </div>
                       <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center "  data-aos-delay="300">
-                  <a className="rounded-lg btn text-white bg-black hover:bg-gray-800 w-full sm:w-auto select-none" href="/signup">Sign Up</a>
+                  <a className="rounded-lg btn text-white bg-black hover:bg-gray-800 w-full sm:w-auto select-none" href="https://app.quarkiql.com/signup">Sign Up</a>
                 </div>
         </div>
       </div>
