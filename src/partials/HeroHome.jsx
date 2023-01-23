@@ -37,7 +37,7 @@ function HeroHome() {
               <p className="tracking-normal text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Create custom images and requests in only a few clicks.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <span className="block btn text-white rounded-lg bg-indigo-600 hover:scale-110 nm-shadow hover:nm-shadow-lg-hover w-full mb-4 sm:w-auto sm:mb-0 select-none" href="https://app.quarkiql.com">Launch App</span>
+                  <span className="block btn text-white rounded-lg bg-indigo-600 hover:scale-110 nm-shadow hover:nm-shadow-lg-hover w-full mb-4 sm:w-auto sm:mb-0 select-none" href="https://app.quarkiql.com"><a href="https://app.quarkiql.com">Launch App</a></span>
                 </div>
               </div>
             </div>
