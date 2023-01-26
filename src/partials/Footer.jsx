@@ -16,7 +16,7 @@ function Footer() {
           </a>
           </div>
           {/* Copyrights note */}
-          <div className="content-center text-sm text-gray-600">
+          <div className="content-center text-xs text-gray-600">
                       ©2023 QuarkIQL LLC. All Rights Reserved.
           </div>
 
