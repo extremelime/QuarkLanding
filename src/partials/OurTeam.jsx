@@ -94,7 +94,7 @@ function OurTeam() {
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>*/}
           </div>
-          <p className="text-xl mt-12 text-center tracking-normal text-gray-600">For all questions, suggestions, and support &#8212;{' '}<span className="inline sm:block">please get in touch with us:</span><div className="m-10 max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center "><a className="max-h-[2.5em] min-w-[5.5em] rounded-lg btn text-white bg-black hover:bg-gray-800 w-full sm:w-auto select-none" alt="Contact us" href="mailto:quarkiql@gmail.com"><br /><MdOutlineMailOutline style={{display:'inline',scale:"1.35"}}/></a></div></p>
+          <p className="text-xl mt-12 text-center tracking-normal text-gray-600">For all questions, suggestions, and support &#8212;{' '}<span className="inline sm:block">please get in touch with us.</span><div className="m-10 max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center "><a className="max-h-[2.5em] min-w-[5.5em] rounded-lg btn text-white bg-black hover:bg-gray-800 w-full sm:w-auto select-none" alt="Contact us" href="mailto:quarkiql@gmail.com"><br /><MdOutlineMailOutline style={{display:'inline',scale:"1.35"}}/></a></div></p>
         </div>
       </div>
     </section>
