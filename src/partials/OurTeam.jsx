@@ -1,6 +1,7 @@
 import React from 'react';
 import jwHeadshot from "../images/jw-headshot.jpg"
 import kyHeadshot from "../images/ky-headshot.jpg"
+import { MdOutlineMailOutline } from 'react-icons/md';
 
 function OurTeam() {
   return (
@@ -15,7 +16,7 @@ function OurTeam() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Our Team.</h2>
+            <h2 className="h2 mb-4">Our team.</h2>
             <p className="text-xl tracking-normal text-gray-600">The people behind Quark Image Query Lab.</p>
           </div>
 
@@ -92,9 +93,8 @@ function OurTeam() {
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>*/}
-
           </div>
-
+          <p className="text-xl mt-12 text-center tracking-normal text-gray-600">For all questions, suggestions, and support,<br />please get in touch with us:<div className="m-10 max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center "><a className="rounded-lg btn text-white bg-black hover:bg-gray-800 w-full sm:w-auto select-none" alt="Contact us" href="mailto:quarkiql@gmail.com"><br /><MdOutlineMailOutline style={{display:'inline',scale:"1.35"}}/></a></div></p>
         </div>
       </div>
     </section>
